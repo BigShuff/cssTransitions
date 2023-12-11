@@ -1,0 +1,15 @@
+.redSquare{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition-property: 'background-color', 'border-radius';
+    transition-duration: 4s, 2s;
+}
+
+.redSquare:hover{
+    transform: rotate(45deg);
+    background-color: black;
+    border-radius: 50%;
+    
+}
